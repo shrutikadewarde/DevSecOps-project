@@ -10,7 +10,7 @@ module "eks" {
 
   cluster_endpoint_public_access       = true
   cluster_endpoint_private_access      = true
-  cluster_endpoint_public_access_cidrs = ["13.234.34.63"]
+  cluster_endpoint_public_access_cidrs = ["13.234.34.63/32"]
 
 
 
