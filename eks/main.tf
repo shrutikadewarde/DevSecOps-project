@@ -9,6 +9,7 @@ module "eks" {
   subnet_ids = var.subnet_ids
 
   cluster_endpoint_public_access = true
+  cluster_endpoint_private_access = true
 
   eks_managed_node_groups = {
     default = {
