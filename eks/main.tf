@@ -10,7 +10,8 @@ module "eks" {
 
   cluster_endpoint_public_access = true
   cluster_endpoint_private_access = true
-  public_access_cidrs            = ["13.234.34.63"] #jenkins-server pub-ip
+  public_access_cidrs = ["13.234.34.63"]
+
 
   eks_managed_node_groups = {
     default = {
