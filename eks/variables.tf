@@ -20,3 +20,8 @@ variable "cluster_name" {
   type        = string   # This should be a single string
   default     = "devsecops-eks"  # Provide the cluster name as a string
 }
+
+variable "region" {
+  description = "AWS region"
+  type        = string
+}
